@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# build output
+dist/
+*.tsbuildinfo
+coverage/
+
+# generated Prisma client (created by `prisma generate` on install)
+src/generated/
+
+# env
+.env
+.env.*
+!.env.example
+
+# misc
+*.log
+.DS_Store
+.idea/
+.vscode/
